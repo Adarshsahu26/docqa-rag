@@ -1,0 +1,21 @@
+Plant Energy Management Guidelines (SAMPLE DOCUMENT - fictional data for demonstration only)
+
+Purpose
+
+These guidelines describe how the plant measures, controls and reports its electricity consumption. They aim to reduce energy cost and to avoid penalties from the utility.
+
+Metering
+
+Main incomers and all large motors are metered with smart meters that record consumption every 15 minutes. Meter data is uploaded to the energy dashboard each night. A meter that stops reporting for more than 24 hours is treated as faulty and raised as a work order.
+
+Peak demand
+
+The contracted peak demand limit is 4.2 MW. When the forecast demand exceeds 90 percent of the limit, the energy controller starts demand response. During demand response, non-critical HVAC loads are shed first, followed by air compressors and then batch heaters. Production lines are never shed without approval from the shift supervisor.
+
+Power factor
+
+The plant must maintain a power factor of at least 0.95. The utility charges a penalty when the monthly average power factor falls below 0.90. Capacitor banks switch in automatically when the power factor drops below 0.93.
+
+Reviews and audits
+
+The energy team reviews consumption against the budget every month. The key performance indicator is energy intensity, measured in kWh per tonne of product. A full energy audit is carried out every 3 years by an accredited auditor.

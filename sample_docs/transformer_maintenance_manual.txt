@@ -1,0 +1,25 @@
+Transformer Maintenance Manual (SAMPLE DOCUMENT - fictional data for demonstration only)
+
+Purpose and scope
+
+This manual describes the routine inspection and maintenance of oil-immersed power transformers rated between 10 MVA and 100 MVA at the Greenfield Substation. It applies to all maintenance technicians and to contractors who work under a valid work permit.
+
+Inspection schedule
+
+Visual inspections are carried out every month. The technician checks the oil level gauge, the colour of the breather silica gel, the bushings for cracks or oil leaks, and the cooling fans for abnormal noise. Silica gel that has turned from blue to pink must be replaced within 7 days.
+
+Dissolved gas analysis (DGA) of the insulating oil is performed every 12 months. If the total combustible gas level exceeds 720 ppm, the sampling interval is reduced to 3 months and the asset manager must be notified.
+
+Thermographic scanning of the tank, radiators and bushing connections is performed every 6 months while the transformer carries at least 50 percent load. Any hot spot more than 15 degrees Celsius above the neighbouring phases is reported as a defect.
+
+Temperature limits
+
+The top oil temperature alarm is set at 85 degrees Celsius and the trip is set at 95 degrees Celsius. The winding temperature alarm is set at 100 degrees Celsius and the trip is set at 110 degrees Celsius. When any temperature alarm is raised, the operator must reduce the load by at least 20 percent and start all cooling stages.
+
+Oil quality
+
+Insulating oil must have a breakdown voltage of at least 40 kV. Oil with a moisture content above 25 ppm must be filtered or replaced. Oil samples are stored in amber glass bottles and must reach the laboratory within 48 hours. Samples that arrive later are rejected and the sampling is repeated.
+
+Record keeping
+
+Every inspection is entered in the maintenance management system within 24 hours. Records are retained for the life of the transformer plus 5 years.

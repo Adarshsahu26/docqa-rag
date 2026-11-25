@@ -1,0 +1,30 @@
+Lockout/Tagout Procedure (SAMPLE DOCUMENT - fictional data for demonstration only)
+
+Purpose
+
+This procedure protects workers from the unexpected start-up or energisation of equipment during maintenance and repair work. It applies to all electrical, hydraulic, pneumatic and mechanical equipment on site.
+
+Who may apply a lock
+
+Only authorised employees who have completed lockout/tagout training may apply a personal lock. The training must be renewed every 12 months.
+
+Standard steps
+
+Step 1 - Notify all affected personnel before the equipment is shut down.
+Step 2 - Shut the equipment down using the normal stopping procedure.
+Step 3 - Isolate every energy source, including electrical, hydraulic, pneumatic and stored mechanical energy.
+Step 4 - Apply a personal lock and a danger tag to each isolation point. Each worker uses their own lock and keeps the only key.
+Step 5 - Release or restrain stored energy, for example by bleeding pressure lines or grounding capacitors.
+Step 6 - Verify isolation by attempting a start-up from the local control station and by testing with a voltage tester. Return the controls to the off position afterwards.
+
+Group lockout
+
+When more than one team works on the same equipment, a group lockbox is used. Each team leader places a lock on the lockbox, and every worker adds a personal lock to it.
+
+Shift changes
+
+If work continues across a shift change, the outgoing worker's lock may only be removed after the incoming worker has applied their own lock and the handover has been recorded.
+
+Removing locks
+
+Before locks are removed, the supervisor confirms that all tools have been cleared, guards are refitted and everyone is clear of the equipment. A lock may be removed by someone other than its owner only with written approval from the site manager, after at least 2 attempts to contact the owner.

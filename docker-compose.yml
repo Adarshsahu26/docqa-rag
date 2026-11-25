@@ -1,0 +1,18 @@
+# Run the service with one command:   docker compose up --build
+# Before the first run, copy .env.example to .env (it is fine to leave every value commented out).
+services:
+  docqa:
+    build:
+      context: .
+      args:
+        EMBEDDING_MODEL: sentence-transformers/all-MiniLM-L6-v2
+    image: docqa:latest
+    ports:
+      - "8000:8000"
+    env_file: .env
+    volumes:
+      - docqa-data:/data # the saved index survives restarts and rebuilds
+    restart: unless-stopped
+
+volumes:
+  docqa-data:

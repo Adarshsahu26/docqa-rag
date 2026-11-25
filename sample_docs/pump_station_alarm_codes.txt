@@ -1,0 +1,21 @@
+Pump Station Alarm Code Reference (SAMPLE DOCUMENT - fictional data for demonstration only)
+
+Overview
+
+The control system at the Riverside Pump Station raises alarms at three severity levels: advisory, warning and critical. Advisory alarms are only logged. Warning alarms notify the on-call operator by SMS. Critical alarms shut down the affected pump automatically and page the shift supervisor.
+
+Alarm codes
+
+Code P-101 means low suction pressure. It appears when the suction pressure stays below 0.5 bar for more than 30 seconds. Check the inlet valve position and the intake screen for debris before restarting the pump.
+
+Code P-204 means high bearing temperature. It is a warning when the bearing temperature passes 75 degrees Celsius and it becomes critical at 90 degrees Celsius. Inspect the lubrication and measure the vibration before restarting.
+
+Code P-309 means motor overcurrent. The pump trips when the current exceeds 115 percent of rated current for 10 seconds. Do not attempt more than two restarts. After two failed restarts the motor insulation resistance must be measured.
+
+Code V-410 means excessive vibration. The warning level is 4.5 mm/s RMS and the critical level is 7.1 mm/s RMS. Check the coupling alignment and the foundation bolts.
+
+Code C-512 means loss of communication with the remote terminal unit. The system switches to local control mode and the operator must verify the pump status manually.
+
+Restart rules
+
+After a critical alarm a pump may only be restarted by an authorised operator once the cause has been identified and written in the log. A pump that has tripped twice within 24 hours must be inspected by a maintenance engineer before it returns to service.

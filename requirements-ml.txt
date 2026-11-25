@@ -1,0 +1,4 @@
+# Optional: semantic (dense) embeddings with Sentence-Transformers. This pulls in PyTorch,
+# which is a large download. Without it the app falls back to the lightweight hashing
+# embedder, which only matches shared words (fine for tests and demos, weaker for real use).
+sentence-transformers>=3.0

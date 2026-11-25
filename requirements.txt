@@ -1,0 +1,12 @@
+# Runtime dependencies (developed and tested on Python 3.13).
+# Semantic embeddings are optional and live in requirements-ml.txt.
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+python-multipart>=0.0.9
+python-dotenv>=1.0
+numpy>=1.26
+faiss-cpu>=1.8
+pdfplumber>=0.11
+docx2txt>=0.8
+anthropic>=0.40
+openai>=1.40

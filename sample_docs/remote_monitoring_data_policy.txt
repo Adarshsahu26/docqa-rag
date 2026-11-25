@@ -1,0 +1,25 @@
+Remote Monitoring and Data Retention Policy (SAMPLE DOCUMENT - fictional data for demonstration only)
+
+Purpose
+
+This policy defines how sensor data from plant assets is collected, stored, accessed and reported. It supports condition monitoring and asset performance management across all sites.
+
+Data collection
+
+Sensors on critical assets report vibration, temperature, pressure and current readings every 10 seconds. Sensors on non-critical assets report every 5 minutes. All readings carry a timestamp in UTC.
+
+Data retention
+
+Raw sensor readings are kept for 90 days in the operational database. After 90 days they are aggregated into hourly averages, minimum values and maximum values, which are kept in the archive for 5 years. Alarm and event logs are kept for 7 years.
+
+Access control
+
+Engineers have read-only access to monitoring data. Only members of the reliability team can change alarm thresholds, and every change needs approval from a second engineer. All changes are written to an audit log that cannot be edited.
+
+Data quality
+
+Readings that are missing for more than 3 consecutive intervals are flagged as data gaps. A sensor that drifts more than 2 percent from its calibration reference is scheduled for recalibration within 14 days.
+
+Reporting
+
+A monthly asset health report is sent to the plant managers by the 5th working day of the month. The report contains asset availability, mean time between failures (MTBF), mean time to repair (MTTR) and the number of open work orders.

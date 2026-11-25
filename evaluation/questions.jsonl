@@ -1,0 +1,34 @@
+{"question": "How often is dissolved gas analysis of the transformer oil performed?", "evidence": "of the insulating oil is performed every 12 months", "source": "transformer_maintenance_manual.txt"}
+{"question": "What combustible gas level means oil must be sampled more often?", "evidence": "total combustible gas level exceeds 720 ppm", "source": "transformer_maintenance_manual.txt"}
+{"question": "At what temperature does the top oil alarm trigger?", "evidence": "top oil temperature alarm is set at 85 degrees celsius", "source": "transformer_maintenance_manual.txt"}
+{"question": "What must the operator do when a temperature alarm is raised?", "evidence": "must reduce the load by at least 20 percent", "source": "transformer_maintenance_manual.txt"}
+{"question": "What is the minimum breakdown voltage for insulating oil?", "evidence": "breakdown voltage of at least 40 kv", "source": "transformer_maintenance_manual.txt"}
+{"question": "How long do we keep transformer inspection records?", "evidence": "retained for the life of the transformer plus 5 years", "source": "transformer_maintenance_manual.txt"}
+{"question": "How soon must discoloured silica gel be swapped out?", "evidence": "must be replaced within 7 days", "source": "transformer_maintenance_manual.txt"}
+{"question": "How quickly must oil samples get to the lab?", "evidence": "must reach the laboratory within 48 hours", "source": "transformer_maintenance_manual.txt"}
+{"question": "What does alarm code P-101 mean?", "evidence": "code p-101 means low suction pressure", "source": "pump_station_alarm_codes.txt"}
+{"question": "What vibration level is critical for a pump?", "evidence": "the critical level is 7.1 mm/s rms", "source": "pump_station_alarm_codes.txt"}
+{"question": "How many restart attempts are allowed after a motor overcurrent trip?", "evidence": "do not attempt more than two restarts", "source": "pump_station_alarm_codes.txt"}
+{"question": "What happens when communication with the remote terminal unit is lost?", "evidence": "switches to local control mode", "source": "pump_station_alarm_codes.txt"}
+{"question": "Who is allowed to restart a pump after a critical alarm?", "evidence": "may only be restarted by an authorised operator", "source": "pump_station_alarm_codes.txt"}
+{"question": "At what bearing temperature does the pump alarm become critical?", "evidence": "becomes critical at 90 degrees celsius", "source": "pump_station_alarm_codes.txt"}
+{"question": "Who is notified by SMS when a warning alarm occurs?", "evidence": "warning alarms notify the on-call operator by sms", "source": "pump_station_alarm_codes.txt"}
+{"question": "How often does lockout training have to be renewed?", "evidence": "the training must be renewed every 12 months", "source": "lockout_tagout_procedure.txt"}
+{"question": "How do you confirm that equipment is properly isolated?", "evidence": "verify isolation by attempting a start-up from the local control station", "source": "lockout_tagout_procedure.txt"}
+{"question": "What is used when several teams work on the same machine?", "evidence": "a group lockbox is used", "source": "lockout_tagout_procedure.txt"}
+{"question": "Can someone else remove my lock if I am unavailable?", "evidence": "only with written approval from the site manager", "source": "lockout_tagout_procedure.txt"}
+{"question": "What happens to locks at a shift change?", "evidence": "only be removed after the incoming worker has applied their own lock", "source": "lockout_tagout_procedure.txt"}
+{"question": "How often do sensors on critical assets report readings?", "evidence": "current readings every 10 seconds", "source": "remote_monitoring_data_policy.txt"}
+{"question": "How long are raw sensor readings kept?", "evidence": "kept for 90 days in the operational database", "source": "remote_monitoring_data_policy.txt"}
+{"question": "Who is allowed to change alarm thresholds?", "evidence": "only members of the reliability team can change alarm thresholds", "source": "remote_monitoring_data_policy.txt"}
+{"question": "How long are alarm and event logs retained?", "evidence": "alarm and event logs are kept for 7 years", "source": "remote_monitoring_data_policy.txt"}
+{"question": "When must a drifting sensor be recalibrated?", "evidence": "scheduled for recalibration within 14 days", "source": "remote_monitoring_data_policy.txt"}
+{"question": "Which metrics does the monthly asset health report contain?", "evidence": "mean time between failures", "source": "remote_monitoring_data_policy.txt"}
+{"question": "What is the contracted peak demand limit?", "evidence": "peak demand limit is 4.2 mw", "source": "energy_management_guidelines.txt"}
+{"question": "Which loads are shed first during demand response?", "evidence": "non-critical hvac loads are shed first", "source": "energy_management_guidelines.txt"}
+{"question": "What power factor must the plant maintain?", "evidence": "power factor of at least 0.95", "source": "energy_management_guidelines.txt"}
+{"question": "How often is a full energy audit carried out?", "evidence": "energy audit is carried out every 3 years", "source": "energy_management_guidelines.txt"}
+{"question": "How fast must a P1 work order be responded to?", "evidence": "they must be responded to within 1 hour", "source": "maintenance_work_orders.txt"}
+{"question": "When is manager approval needed before work starts?", "evidence": "above 5,000 usd require manager approval", "source": "maintenance_work_orders.txt"}
+{"question": "How soon must a root cause analysis be finished after a P1 failure?", "evidence": "completed within 10 working days", "source": "maintenance_work_orders.txt"}
+{"question": "What is the preventive maintenance compliance target?", "evidence": "compliance target is 90 percent", "source": "maintenance_work_orders.txt"}

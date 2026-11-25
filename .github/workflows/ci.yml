@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  test:
+    name: Tests (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: requirements*.txt
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+      - name: Lint
+        run: ruff check .
+      - name: Test
+        run: python -m pytest --cov=app --cov-report=term-missing
+
+  docker:
+    # The first real test of the Dockerfile and of the real embedding model: build the image,
+    # start it, upload a document and ask a question.
+    name: Docker image answers a question
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the image
+        run: docker build -t docqa:ci .
+      - name: Start the container and wait for /health
+        run: |
+          docker run -d --name docqa -p 8000:8000 docqa:ci
+          for i in $(seq 1 45); do
+            curl -fsS http://127.0.0.1:8000/health && exit 0
+            sleep 2
+          done
+          echo "The service did not become healthy in time"
+          exit 1
+      - name: Upload a document and ask about it
+        run: |
+          curl -fsS -F "file=@sample_docs/pump_station_alarm_codes.txt" http://127.0.0.1:8000/documents
+          echo
+          curl -fsS -X POST http://127.0.0.1:8000/ask \
+            -H "Content-Type: application/json" \
+            -d '{"question": "What does alarm code P-101 mean?"}' | tee answer.json
+          echo
+          grep -q '"grounded":true' answer.json
+      - name: Show the container log if anything failed
+        if: failure()
+        run: docker logs docqa

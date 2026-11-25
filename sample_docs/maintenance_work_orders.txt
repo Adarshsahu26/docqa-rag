@@ -1,0 +1,25 @@
+Maintenance Work Order and Spare Parts Process (SAMPLE DOCUMENT - fictional data for demonstration only)
+
+Work order priorities
+
+Every work order is given a priority. P1 work orders are emergencies that threaten safety or production, and they must be responded to within 1 hour. P2 work orders must be responded to within 24 hours. P3 work orders are scheduled within 7 days and P4 work orders within 30 days.
+
+Approvals
+
+Work orders with an estimated cost above 5,000 USD require manager approval before work starts. Emergency P1 work may start immediately, and the approval is recorded afterwards.
+
+Closing a work order
+
+A work order can only be closed when the failure code, the labour hours and the parts used have been entered. The planner reviews every closed work order within 3 working days.
+
+Root cause analysis
+
+A root cause analysis is mandatory after every P1 failure and must be completed within 10 working days. The findings are shared with the reliability team.
+
+Preventive maintenance
+
+The preventive maintenance compliance target is 90 percent, measured as the share of scheduled tasks completed on time. The backlog is reviewed every week.
+
+Spare parts
+
+Critical spares are kept at a minimum stock level of 2 units. When the stock falls below the reorder point, the storekeeper raises a purchase request automatically.
